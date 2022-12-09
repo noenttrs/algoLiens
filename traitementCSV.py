@@ -5,7 +5,7 @@ with open('dataSet/patronymes.csv', newline='') as f:
     reader = csv.reader(f, delimiter=',')
     for row in reader:
         try:
-            if int(row[1]) >= 1000:
+            if int(row[1]) >= 1500:
                 nom.append(row[0])
         except:
             print('il y a eu une erreur à la ligne : ', row)

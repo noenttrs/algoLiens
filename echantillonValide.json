@@ -1,0 +1,35 @@
+{
+    "noe":[
+        "ziyad",
+        "nicolas",
+        "isaac",
+        "gustave"
+    ],
+    "ziyad":[
+        "isaac",
+        "gustave",
+        "noe"
+    ],
+    "isaac":[
+        "gustave",
+        "noe",
+        "ziyad",
+        "jules"
+    ],
+    "gustave":[
+        "isaac",
+        "ziyad",
+        "jules",
+        "noe"
+    ],
+    "jules":[
+        "isaac",
+        "ziyad",
+        "gustave"
+    ],
+    "nicolas":[
+        "marina",
+        "loan",
+        "benjamin"
+    ]
+}
