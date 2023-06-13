@@ -4,8 +4,8 @@ import random
 
 # Création des personnes
 
-noms = json.load(open('nom.json', 'r', encoding='utf8'))
-prenoms = json.load(open('prenom.json', 'r', encoding='utf8'))
+noms = json.load(open('data/nom.json', 'r', encoding='utf8'))
+prenoms = json.load(open('data/prenom.json', 'r', encoding='utf8'))
 
 data = []
 
@@ -21,7 +21,7 @@ for prenom in prenoms:
             'id': prenom[0] + nom.lower().replace(' ', '_') + str(random.randint(1, 1000000))
         })
 
-d = open('data.json', 'w', encoding='utf8')
+d = open('data/data.json', 'w', encoding='utf8')
 d.write(json.dumps(data, indent=4, ensure_ascii=False))
 
 """
